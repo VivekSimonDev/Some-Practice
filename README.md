@@ -1,1 +1,15 @@
-# Some-Practice
+<h1>Introduction</h1>
+
+AliveSFU is SFU’s first dedicated Health and Fitness iPhone app designed for SFU student and faculty interested in leading a healthful lifestyle. It brings the SFU vision on personal growth and lifelong learning to life by engaging students into more healthful habits and helping them keep on track and stay motivated. Bundled in the app are features like Fitness Buddy Finder, to help users find a fitness buddy that motivates them to stay on track and further improves their workouts. Also integrated within the app is SFU Recreation, offering tutorials for equipment available at SFU fitness center, providing trainer information and the ability to book a trainer. It further provides information on the number of people in a gym visualized by an intuitive graph, opening and closing times for fitness center and intramurals and sessions hosted by SFU Recreation. Sleep Schedule Analysis offers the user a way to stick to their target number of hours slept and provides them with their sleep history by integrating Apple’s HealthKit API. “My Progress” feature allows users to log in their gym routine in a simple day-by-day layout and provides options for the user to change or remove it. This routine data is also used to construct a progress graph for the user for a better visualization of his progress. 
+
+<h1>Major Features:</h1>
+
+<h2>Fitness Buddy Finder</h2>
+This feature shall provide the user with a fitness buddy that matches the preferences that the user provides as closely as possible. It shall also provide them with the opportunity to view the matches in a tile view and send a request to one or more fitness buddies. The user shall also be able to view the incoming requests in a list view and accept or reject them.
+<h2>SFU Recreation Integration</h2>
+The goal of this feature is for the user to be able to interact with the app while in the fitness centre as well as when the user has any questions. This feature shall provide the user with tutorials for specific machines, trainer contact information, frequently asked questions (FAQ), and a schedule of recreation programs at SFU. This feature will be one that users will use when they need help using machines or want to know more about how they can be active at SFU.
+<h2>Sleep Analysis</h2>
+This feature shall provide the user with an analysis of their sleep schedule. Upon obtaining the data from HealthKit, the user shall be shown their sleep schedule for the week in a bar graph format, their average number of hours slept shall be calculated and shown to the user. The user shall also be able to set up target number of hours slept.
+<h2>Progress Tracker</h2>
+This feature shall provide the user the ability to log in their gym routine and follow it. The user shall also be able to swipe left and right on the existing routines if the specific workout was completed or not completed, respectively. This information shall be saved on the user’s local storage and used to construct a progress bar graph that shall be displayed on this feature’s main page. This bar graph shall show the number of workouts the user has completed for a maximum period of 4 weeks and the scale shall be changeable from week view to month view. 
+

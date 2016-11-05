@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41B003961DC46F7400762D2E /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B003951DC46F7400762D2E /* Exercise.swift */; };
+		A985705F1DC2E1D100C3AA32 /* AddNewExerciseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A985705E1DC2E1D100C3AA32 /* AddNewExerciseController.swift */; };
+		A98570621DC2E7FF00C3AA32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A98570601DC2E7FF00C3AA32 /* Main.storyboard */; };
+		A98570641DC315B100C3AA32 /* AddStrengthExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98570631DC315B100C3AA32 /* AddStrengthExercise.swift */; };
+		A98570661DC315C000C3AA32 /* AddCardioExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98570651DC315C000C3AA32 /* AddCardioExercise.swift */; };
+		A9AE2C171DC17F9900FB5BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AE2C161DC17F9900FB5BC0 /* AppDelegate.swift */; };
+		A9AE2C191DC17F9900FB5BC0 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AE2C181DC17F9900FB5BC0 /* HomePageController.swift */; };
+		A9AE2C1B1DC17F9900FB5BC0 /* SFURecreationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AE2C1A1DC17F9900FB5BC0 /* SFURecreationController.swift */; };
+		A9AE2C201DC17F9900FB5BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9AE2C1F1DC17F9900FB5BC0 /* Assets.xcassets */; };
+		A9AE2C231DC17F9900FB5BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AE2C211DC17F9900FB5BC0 /* LaunchScreen.storyboard */; };
+		A9AE2C2E1DC17F9900FB5BC0 /* AliveSFUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AE2C2D1DC17F9900FB5BC0 /* AliveSFUTests.swift */; };
+		A9AE2C391DC17F9900FB5BC0 /* AliveSFUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AE2C381DC17F9900FB5BC0 /* AliveSFUUITests.swift */; };
+		A9AE2C471DC1822D00FB5BC0 /* MyProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AE2C461DC1822D00FB5BC0 /* MyProgressController.swift */; };
+		A9AE2C491DC1823C00FB5BC0 /* FitnessBuddyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AE2C481DC1823C00FB5BC0 /* FitnessBuddyController.swift */; };
+		A9AE2C4B1DC1824C00FB5BC0 /* SleepAnalysisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AE2C4A1DC1824C00FB5BC0 /* SleepAnalysisController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9AE2C2A1DC17F9900FB5BC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9AE2C0B1DC17F9900FB5BC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9AE2C121DC17F9900FB5BC0;
+			remoteInfo = AliveSFU;
+		};
+		A9AE2C351DC17F9900FB5BC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9AE2C0B1DC17F9900FB5BC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9AE2C121DC17F9900FB5BC0;
+			remoteInfo = AliveSFU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41B003951DC46F7400762D2E /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		A985705E1DC2E1D100C3AA32 /* AddNewExerciseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewExerciseController.swift; sourceTree = "<group>"; };
+		A98570611DC2E7FF00C3AA32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A98570631DC315B100C3AA32 /* AddStrengthExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStrengthExercise.swift; sourceTree = "<group>"; };
+		A98570651DC315C000C3AA32 /* AddCardioExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardioExercise.swift; sourceTree = "<group>"; };
+		A9AE2C131DC17F9900FB5BC0 /* AliveSFU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliveSFU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AE2C161DC17F9900FB5BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9AE2C181DC17F9900FB5BC0 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		A9AE2C1A1DC17F9900FB5BC0 /* SFURecreationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFURecreationController.swift; sourceTree = "<group>"; };
+		A9AE2C1F1DC17F9900FB5BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9AE2C221DC17F9900FB5BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9AE2C241DC17F9900FB5BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AE2C291DC17F9900FB5BC0 /* AliveSFUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliveSFUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AE2C2D1DC17F9900FB5BC0 /* AliveSFUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliveSFUTests.swift; sourceTree = "<group>"; };
+		A9AE2C2F1DC17F9900FB5BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AE2C341DC17F9900FB5BC0 /* AliveSFUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliveSFUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AE2C381DC17F9900FB5BC0 /* AliveSFUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliveSFUUITests.swift; sourceTree = "<group>"; };
+		A9AE2C3A1DC17F9900FB5BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AE2C461DC1822D00FB5BC0 /* MyProgressController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProgressController.swift; sourceTree = "<group>"; };
+		A9AE2C481DC1823C00FB5BC0 /* FitnessBuddyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessBuddyController.swift; sourceTree = "<group>"; };
+		A9AE2C4A1DC1824C00FB5BC0 /* SleepAnalysisController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepAnalysisController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9AE2C101DC17F9900FB5BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AE2C261DC17F9900FB5BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AE2C311DC17F9900FB5BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9AE2C0A1DC17F9900FB5BC0 = {
+			isa = PBXGroup;
+			children = (
+				A9AE2C151DC17F9900FB5BC0 /* AliveSFU */,
+				A9AE2C2C1DC17F9900FB5BC0 /* AliveSFUTests */,
+				A9AE2C371DC17F9900FB5BC0 /* AliveSFUUITests */,
+				A9AE2C141DC17F9900FB5BC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9AE2C141DC17F9900FB5BC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9AE2C131DC17F9900FB5BC0 /* AliveSFU.app */,
+				A9AE2C291DC17F9900FB5BC0 /* AliveSFUTests.xctest */,
+				A9AE2C341DC17F9900FB5BC0 /* AliveSFUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9AE2C151DC17F9900FB5BC0 /* AliveSFU */ = {
+			isa = PBXGroup;
+			children = (
+				A9AE2C161DC17F9900FB5BC0 /* AppDelegate.swift */,
+				A9AE2C181DC17F9900FB5BC0 /* HomePageController.swift */,
+				A9AE2C1A1DC17F9900FB5BC0 /* SFURecreationController.swift */,
+				A9AE2C461DC1822D00FB5BC0 /* MyProgressController.swift */,
+				A985705E1DC2E1D100C3AA32 /* AddNewExerciseController.swift */,
+				A98570651DC315C000C3AA32 /* AddCardioExercise.swift */,
+				A98570631DC315B100C3AA32 /* AddStrengthExercise.swift */,
+				A9AE2C481DC1823C00FB5BC0 /* FitnessBuddyController.swift */,
+				A9AE2C4A1DC1824C00FB5BC0 /* SleepAnalysisController.swift */,
+				A9AE2C1F1DC17F9900FB5BC0 /* Assets.xcassets */,
+				A9AE2C211DC17F9900FB5BC0 /* LaunchScreen.storyboard */,
+				A98570601DC2E7FF00C3AA32 /* Main.storyboard */,
+				41B003951DC46F7400762D2E /* Exercise.swift */,
+				A9AE2C241DC17F9900FB5BC0 /* Info.plist */,
+			);
+			path = AliveSFU;
+			sourceTree = "<group>";
+		};
+		A9AE2C2C1DC17F9900FB5BC0 /* AliveSFUTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9AE2C2D1DC17F9900FB5BC0 /* AliveSFUTests.swift */,
+				A9AE2C2F1DC17F9900FB5BC0 /* Info.plist */,
+			);
+			path = AliveSFUTests;
+			sourceTree = "<group>";
+		};
+		A9AE2C371DC17F9900FB5BC0 /* AliveSFUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9AE2C381DC17F9900FB5BC0 /* AliveSFUUITests.swift */,
+				A9AE2C3A1DC17F9900FB5BC0 /* Info.plist */,
+			);
+			path = AliveSFUUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9AE2C121DC17F9900FB5BC0 /* AliveSFU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AE2C3D1DC17F9900FB5BC0 /* Build configuration list for PBXNativeTarget "AliveSFU" */;
+			buildPhases = (
+				A9AE2C0F1DC17F9900FB5BC0 /* Sources */,
+				A9AE2C101DC17F9900FB5BC0 /* Frameworks */,
+				A9AE2C111DC17F9900FB5BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliveSFU;
+			productName = AliveSFU;
+			productReference = A9AE2C131DC17F9900FB5BC0 /* AliveSFU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9AE2C281DC17F9900FB5BC0 /* AliveSFUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AE2C401DC17F9900FB5BC0 /* Build configuration list for PBXNativeTarget "AliveSFUTests" */;
+			buildPhases = (
+				A9AE2C251DC17F9900FB5BC0 /* Sources */,
+				A9AE2C261DC17F9900FB5BC0 /* Frameworks */,
+				A9AE2C271DC17F9900FB5BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9AE2C2B1DC17F9900FB5BC0 /* PBXTargetDependency */,
+			);
+			name = AliveSFUTests;
+			productName = AliveSFUTests;
+			productReference = A9AE2C291DC17F9900FB5BC0 /* AliveSFUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9AE2C331DC17F9900FB5BC0 /* AliveSFUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AE2C431DC17F9900FB5BC0 /* Build configuration list for PBXNativeTarget "AliveSFUUITests" */;
+			buildPhases = (
+				A9AE2C301DC17F9900FB5BC0 /* Sources */,
+				A9AE2C311DC17F9900FB5BC0 /* Frameworks */,
+				A9AE2C321DC17F9900FB5BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9AE2C361DC17F9900FB5BC0 /* PBXTargetDependency */,
+			);
+			name = AliveSFUUITests;
+			productName = AliveSFUUITests;
+			productReference = A9AE2C341DC17F9900FB5BC0 /* AliveSFUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9AE2C0B1DC17F9900FB5BC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SimonDevs;
+				TargetAttributes = {
+					A9AE2C121DC17F9900FB5BC0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					A9AE2C281DC17F9900FB5BC0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9AE2C121DC17F9900FB5BC0;
+					};
+					A9AE2C331DC17F9900FB5BC0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9AE2C121DC17F9900FB5BC0;
+					};
+				};
+			};
+			buildConfigurationList = A9AE2C0E1DC17F9900FB5BC0 /* Build configuration list for PBXProject "AliveSFU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9AE2C0A1DC17F9900FB5BC0;
+			productRefGroup = A9AE2C141DC17F9900FB5BC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9AE2C121DC17F9900FB5BC0 /* AliveSFU */,
+				A9AE2C281DC17F9900FB5BC0 /* AliveSFUTests */,
+				A9AE2C331DC17F9900FB5BC0 /* AliveSFUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9AE2C111DC17F9900FB5BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98570621DC2E7FF00C3AA32 /* Main.storyboard in Resources */,
+				A9AE2C231DC17F9900FB5BC0 /* LaunchScreen.storyboard in Resources */,
+				A9AE2C201DC17F9900FB5BC0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AE2C271DC17F9900FB5BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AE2C321DC17F9900FB5BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9AE2C0F1DC17F9900FB5BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AE2C4B1DC1824C00FB5BC0 /* SleepAnalysisController.swift in Sources */,
+				A9AE2C1B1DC17F9900FB5BC0 /* SFURecreationController.swift in Sources */,
+				A9AE2C171DC17F9900FB5BC0 /* AppDelegate.swift in Sources */,
+				A9AE2C471DC1822D00FB5BC0 /* MyProgressController.swift in Sources */,
+				A98570641DC315B100C3AA32 /* AddStrengthExercise.swift in Sources */,
+				41B003961DC46F7400762D2E /* Exercise.swift in Sources */,
+				A98570661DC315C000C3AA32 /* AddCardioExercise.swift in Sources */,
+				A9AE2C191DC17F9900FB5BC0 /* HomePageController.swift in Sources */,
+				A9AE2C491DC1823C00FB5BC0 /* FitnessBuddyController.swift in Sources */,
+				A985705F1DC2E1D100C3AA32 /* AddNewExerciseController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AE2C251DC17F9900FB5BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AE2C2E1DC17F9900FB5BC0 /* AliveSFUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AE2C301DC17F9900FB5BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AE2C391DC17F9900FB5BC0 /* AliveSFUUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9AE2C2B1DC17F9900FB5BC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9AE2C121DC17F9900FB5BC0 /* AliveSFU */;
+			targetProxy = A9AE2C2A1DC17F9900FB5BC0 /* PBXContainerItemProxy */;
+		};
+		A9AE2C361DC17F9900FB5BC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9AE2C121DC17F9900FB5BC0 /* AliveSFU */;
+			targetProxy = A9AE2C351DC17F9900FB5BC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A98570601DC2E7FF00C3AA32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98570611DC2E7FF00C3AA32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9AE2C211DC17F9900FB5BC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9AE2C221DC17F9900FB5BC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9AE2C3B1DC17F9900FB5BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9AE2C3C1DC17F9900FB5BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9AE2C3E1DC17F9900FB5BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AliveSFU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SimonDevs.AliveSFU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A9AE2C3F1DC17F9900FB5BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AliveSFU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SimonDevs.AliveSFU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A9AE2C411DC17F9900FB5BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AliveSFUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SimonDevs.AliveSFUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliveSFU.app/AliveSFU";
+			};
+			name = Debug;
+		};
+		A9AE2C421DC17F9900FB5BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AliveSFUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SimonDevs.AliveSFUTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliveSFU.app/AliveSFU";
+			};
+			name = Release;
+		};
+		A9AE2C441DC17F9900FB5BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AliveSFUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SimonDevs.AliveSFUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AliveSFU;
+			};
+			name = Debug;
+		};
+		A9AE2C451DC17F9900FB5BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = AliveSFUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SimonDevs.AliveSFUUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AliveSFU;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9AE2C0E1DC17F9900FB5BC0 /* Build configuration list for PBXProject "AliveSFU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AE2C3B1DC17F9900FB5BC0 /* Debug */,
+				A9AE2C3C1DC17F9900FB5BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9AE2C3D1DC17F9900FB5BC0 /* Build configuration list for PBXNativeTarget "AliveSFU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AE2C3E1DC17F9900FB5BC0 /* Debug */,
+				A9AE2C3F1DC17F9900FB5BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9AE2C401DC17F9900FB5BC0 /* Build configuration list for PBXNativeTarget "AliveSFUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AE2C411DC17F9900FB5BC0 /* Debug */,
+				A9AE2C421DC17F9900FB5BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9AE2C431DC17F9900FB5BC0 /* Build configuration list for PBXNativeTarget "AliveSFUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AE2C441DC17F9900FB5BC0 /* Debug */,
+				A9AE2C451DC17F9900FB5BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9AE2C0B1DC17F9900FB5BC0 /* Project object */;
+}
