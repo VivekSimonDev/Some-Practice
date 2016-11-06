@@ -10,10 +10,9 @@
 
 import UIKit
 import CoreData
-//Vivek added:
 import JBChart
 
-//Vivek added: An extension to UIColor to allow the creation of our own colours using RGB numbers
+//An extension to UIColor to allow the creation of our own colours using RGB numbers
 extension UIColor {
     convenience init(red: Int, green: Int, blue: Int) {
         let newRed = CGFloat(red)/255
@@ -25,29 +24,25 @@ extension UIColor {
 }
 
 
-//Vivek added: 3rd party libraries added here
+    //3rd party libraries added here
 class MyProgressController: UIViewController, JBBarChartViewDelegate, JBBarChartViewDataSource {
     @IBOutlet weak var stackView: UIStackView!
-    //Vivek added:
     @IBOutlet weak var barChart: JBBarChartView! //The view the bar chart rests in
-    //Vivek added:
     @IBOutlet weak var informationLabel: UILabel! //The label that display info when a bar is tapped
     @IBOutlet weak var scrollView: UIScrollView!
-    
-    //Vivek added:
+
     var chartLegend = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"] //x-axis information
-    //Vivek added:
-    var chartData = [5, 8, 6, 2, 9, 6, 4]//sample data to display bar graph, replace with actual exercise completion numbers
-    //Vivek added:
+    
+    //var chartData = [5, 8, 6, 2, 9, 6, 4]//sample data to display bar graph, replace with actual exercise completion numbers
+    let chartData = DataHandler.countCompletion() // This will count completed exercises on the day and make the graph show the results
     let SFURed = UIColor(red: 166, green: 25, blue: 46) //Creating a custom colour to match the SFU official red colour using the UIColor extension created above
     let SFUGrey = UIColor(red: 84, green: 88, blue: 90)//Customly create SFUGrey
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //Vivek added:
         view.backgroundColor = UIColor.lightGray // changing the colour of whole view
-        //Vivek added:
+        
         //bar chart setup
         barChart.backgroundColor = SFURed //adjust colour of bars in graph
         barChart.delegate = self
@@ -79,7 +74,6 @@ class MyProgressController: UIViewController, JBBarChartViewDelegate, JBBarChart
         barChart.reloadData()
         
         barChart.setState(.collapsed, animated: false)
-        //end of Vivek's addition/////////////////////////////////////////////////
         let leftEdge = UIScreenEdgePanGestureRecognizer(target: self, action: #selector (handleSwipes(_:)))
         
         let rightEdge = UIScreenEdgePanGestureRecognizer(target: self, action: #selector (handleSwipes(_:)))
@@ -95,7 +89,7 @@ class MyProgressController: UIViewController, JBBarChartViewDelegate, JBBarChart
             view.removeFromSuperview()
         }
     }
-    //Vivek added:
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
     
@@ -109,45 +103,38 @@ class MyProgressController: UIViewController, JBBarChartViewDelegate, JBBarChart
     }
     
     override func viewDidDisappear(_ animated: Bool) {
-        //Vivek added:
+
         super.viewDidDisappear(animated)
         hideChart()
-        ///End of Vivek's addition/////////////////////////
+
         for view in stackView.subviews {
             stackView.removeArrangedSubview(view)
             view.removeFromSuperview()
         }
     }
     
-    //Vivek added:
     func hideChart() {
         barChart.setState(.collapsed, animated: true)
     }
     
-    //Vivek added:
     func showChart() {
         barChart.setState(.expanded, animated: true)
     }
     
-    //MARK:JBBarChartView
-    
-    //Vivek added:
+
     func numberOfBars(in barChartView: JBBarChartView!) -> UInt {
         return UInt(chartData.count)
     }
     
-    //Vivek added:
     func barChartView(_ barChartView: JBBarChartView!, heightForBarViewAt index: UInt) -> CGFloat {
         return CGFloat(chartData[Int(index)])
     }
     
-    //Vivek added:
     func barChartView(_ barChartView: JBBarChartView!, colorForBarViewAt index: UInt) -> UIColor! {
         return UIColor.white
         
     }
-    
-    //Vivek added:
+
     func barChartView(_ barChartView: JBBarChartView!, didSelectBarAt index: UInt) {
         let data = chartData[Int(index)]
         let key = chartLegend[Int(index)]
@@ -156,7 +143,7 @@ class MyProgressController: UIViewController, JBBarChartViewDelegate, JBBarChart
         //Maybe change the bar graphs to a percentage, so that if all workouts are completed on that day, the bar is a maximum height.
     }
     
-    //Vivek added:
+    //uncomment this if you wish for the labels to go away once a bar on the graph is unselected
     /*func didDeselect(_ barChartView: JBBarChartView!) {
         informationLabel.text = ""
     }*/
@@ -216,5 +203,6 @@ class MyProgressController: UIViewController, JBBarChartViewDelegate, JBBarChart
     func createTile() {
         
     }
+
 }
 

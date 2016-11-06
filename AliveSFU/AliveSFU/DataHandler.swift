@@ -3,6 +3,7 @@
 //  AliveSFU
 //
 //  Created by Gur Kohli on 2016-11-01.
+//  Developers: Vivek Sharma
 //  Copyright © 2016 SimonDevs. All rights reserved.
 //
 
@@ -95,5 +96,33 @@ class DataHandler {
             return -1
         }
         return 0;
+    }
+    
+    //Returns an array 7 integers long with each index holding that day's amount of completed exercises
+    //Main use will be in the graph for my progress
+    class func countCompletion() -> [Int]
+    {
+        var dayArray: [Int] = [0, 0, 0, 0, 0, 0, 0]
+        let exerciseArray = DataHandler.getExerciseArray()
+        for elem in exerciseArray {
+            if (elem.getCompletion() == true && elem.day == 0)
+            {dayArray[0] = dayArray[0] + 1}
+            else if (elem.getCompletion() == true && elem.day == 1)
+            {dayArray[1] = dayArray[1] + 1}
+            else if (elem.getCompletion() == true && elem.day == 2)
+            {dayArray[2] = dayArray[2] + 1}
+            else if (elem.getCompletion() == true && elem.day == 3)
+            {dayArray[3] = dayArray[3] + 1}
+            else if (elem.getCompletion() == true && elem.day == 4)
+            {dayArray[4] = dayArray[4] + 1}
+            else if (elem.getCompletion() == true && elem.day == 5)
+            {dayArray[5] = dayArray[5] + 1}
+            else if (elem.getCompletion() == true && elem.day == 6)
+            {dayArray[6] = dayArray[6] + 1}
+            
+            
+            
+        }
+        return dayArray
     }
 }

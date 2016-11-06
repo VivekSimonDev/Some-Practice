@@ -18,6 +18,7 @@ class Exercise {
     var time: String = ""
     var category: String = ""
     var day: Int = 0    //A value of 0 corresponds to Sunday, 1 to Monday and so on to 6 being Saturday
+    var completed: Bool = false
     
     let CATEGORY_CARDIO = "cardio"
     let CATEGORY_STRENGTH = "strength"
@@ -71,6 +72,10 @@ class Exercise {
     {
         day = day1 % 7    //Using the modulo operator in case the day value is greater than 6 - I really doubt the modulo is neccessary though
     }
+    public func setCompletion(complete: Bool)
+    {
+        completed = complete
+    }
     
     //getters
     public func printName()
@@ -120,5 +125,9 @@ class Exercise {
         {print("Saturday")}
     }
     
+    public func getCompletion()  -> Bool
+    {
+        return completed
+    }
     
 }
